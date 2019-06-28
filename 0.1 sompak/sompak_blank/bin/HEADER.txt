@@ -1,0 +1,9 @@
+
+This directory contains precompiled SOM_PAK 3.1 binaries for WindowsXX.
+
+They have been compiled with Borland C++Builder Compiler version 5.5
+as described in makefile.dos with the exceptions:
+
+CC = bcc32
+CFLAGS = -I/borland/bcc55/include -5 -O2 -DMSDOS
+LDFLAGS = -L/borland/bcc55/lib
